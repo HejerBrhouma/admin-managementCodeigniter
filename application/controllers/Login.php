@@ -1,11 +1,7 @@
 <?php if(!defined('BASEPATH')) exit('No direct script access allowed');
 
 /**
- * Class : Login (LoginController)
- * Login class to control to authenticate user credentials and starts user's session.
- * @author : Kishor Mali
- * @version : 1.1
- * @since : 15 November 2016
+
  */
 class Login extends CI_Controller
 {
@@ -182,9 +178,7 @@ class Login extends CI_Controller
     }
 
     /**
-     * This function used to reset the password 
-     * @param string $activation_id : This is unique id
-     * @param string $email : This is user email
+
      */
     function resetPasswordConfirmUser($activation_id, $email)
     {
